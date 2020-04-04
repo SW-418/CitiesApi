@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityInfo", "CityInfo.csproj", "{AAD2894E-407D-466D-8204-8F7399F6996F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD2894E-407D-466D-8204-8F7399F6996F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD2894E-407D-466D-8204-8F7399F6996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD2894E-407D-466D-8204-8F7399F6996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD2894E-407D-466D-8204-8F7399F6996F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
