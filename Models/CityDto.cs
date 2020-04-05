@@ -1,10 +1,13 @@
-﻿namespace CityInfo.Models
+﻿using System.Collections.Generic;
+
+namespace CityInfo.Models
 {
     public class CityDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int PointsOfInterestCount { get; set; }
+        public int NumberOfPointsOfInteres => PointsOfInterest.Count;
+        public ICollection<PointOfInterestDto> PointsOfInterest { get; set; } = new List<PointOfInterestDto>();
     }
 }
